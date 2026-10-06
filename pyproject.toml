@@ -1,0 +1,20 @@
+[project]
+name = "cache-service"
+version = "0.1.0"
+description = "Caching microservice"
+readme = "README.md"
+authors = [
+    { name = "israel", email = "israel.asefa.mi1055@gmail.com" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi>=0.142.2",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.15.0",
+    "sqlalchemy>=2.1.3",
+    "uvicorn>=0.54.0",
+]
+
+[tool.uv]
+package = false
