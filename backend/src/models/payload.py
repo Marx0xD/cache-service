@@ -4,7 +4,7 @@ from sqlalchemy import DateTime, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column
 
 from backend.src.db import Base
-from backend.src.utils import utc_now
+from backend.src.utils.utc_now import utc_now
 
 # Stores generated payloads so identical requests can reuse the same payload ID.
 
